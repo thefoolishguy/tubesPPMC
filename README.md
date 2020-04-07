@@ -1,2 +1,14 @@
 # tubesPPMC
-Repo untuk kelompok 5 dari rombongan C
+Repo tugas besar untuk kelompok 5 dari rombongan C
+
+# Anggota
+1. Yahwista Salomo            / 13218032
+2. Matthew Ryo Kianijaya      / 13218035
+3. Martinus William Hartono   / 13218044
+4. Arif Bintang Abdillah      / 13218049
+
+# Asisten Praktikum
+Berry / 13216027
+
+# Deskripsi Program
+Conway's Game of Life
