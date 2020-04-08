@@ -20,4 +20,10 @@ Berry / 13216027
 
 # Deskripsi Program
 Conway's Game of Life
->>>>>>> 9b971272098b8ea89fa82b0096e59c685c243f2a
+
+# Pembagian Tugas
+Main Program dan Integrasi : Martinus William
+ExtFile to Array : Salomo 
+Animate : Bintang
+Tick : Ryo
+
