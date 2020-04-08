@@ -56,6 +56,8 @@ int main(void)
             printf("Masukkan pilihan: "); scanf("%d", &choice);
         };
         printf("Apakah mau keluar atau pilih filename lain? (1/0): "); scanf("%d", &quit);
+        /*if(quit=0)
+            fclose(fp);*/
     };
 
     return(0);
