@@ -14,3 +14,5 @@ Ini menyebabkan perhitungan menjadi salah.
 Solusi: membuat array dari jumlah sel tetangga yang hidup.
 
 Setelah dilakukan seperti demikian, kode berjalan dengan benar.
+
+-- Matthew Ryo Kianijaya / 13218035
