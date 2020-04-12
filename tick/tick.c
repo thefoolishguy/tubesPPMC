@@ -7,6 +7,14 @@
  *  Deskripsi           : Mencetak generasi selanjutnya dalam Conway's Game of Life
  */
 
+#include <stdio.h>
+
+/*  Fungsi count_alive akan menghitung jumlah sel hidup di sekitar sel yang sedang diperiksa.
+    Input   : pointer of 2d array, current row, current column, maximum row, maximum column
+    Output  : sum of alive cells (integer)
+*/
+int count_alive (char **arr, int current_row, int current_column, int max_row, int max_column);
+
 void tick (char **arr, int row, int column){
     
     // Kamus Lokal

@@ -18,23 +18,23 @@ int main(){
     
     for (i = 0; i < row; i ++){
         for (j = 0; j < column; j++){
-            // if(j % 2 == 0 || i % 5 == 0){
-            //     arr[i][j] = 'X';
-            // }
-            // else {
-            //     arr[i][j] = '-';
-            // }
-            arr[i][j] = '-';
+            if(j % 2 == 0 || i % 5 == 0){
+                arr[i][j] = 'X';
+            }
+            else {
+                arr[i][j] = '-';
+            }
+            // arr[i][j] = '-';
             
         }
     }
 
-    arr[1][1] = 'X';
-    arr[1][2] = 'X';
-    arr[2][1] = 'X';
-    arr[2][2] = 'X';
-    arr[1][3] = 'X';
-    arr[2][3] = 'X';
+    // arr[1][1] = 'X';
+    // arr[1][2] = 'X';
+    // arr[2][1] = 'X';
+    // arr[2][2] = 'X';
+    // arr[1][3] = 'X';
+    // arr[2][3] = 'X';
 
     for (i = 0; i < row; i ++){
         for (j = 0; j < column; j++){
@@ -48,7 +48,7 @@ int main(){
     
     tick(arr, row, column);
 
-    tick(arr, row, column);
+    // tick(arr, row, column);
 
     return 0;
 }
