@@ -1,12 +1,4 @@
 # tubesPPMC
-<<<<<<< HEAD
-
-Kelompok 11
-
-Tubes PPMC
-
-Nodal Analysis
-=======
 Repo tugas besar untuk kelompok 5 dari rombongan C
 
 # Anggota

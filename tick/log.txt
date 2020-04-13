@@ -1,0 +1,18 @@
+Masalah utama: cara untuk menghitung jumlah sel tetangga yang hidup
+
+Referensi: https://www.geeksforgeeks.org/program-for-conways-game-of-life/
+Dari referensi tersebut saya mengikuti cara menghitungnya, yakni melakukan for for loop di sekitar sel
+Tetapi perlu modifikasi, karena program referensi hanya untuk di tengah-tengah array, array tidak toroidal
+Modifikasi dilakukan dengan mengecek posisi sel
+
+Awalnya dilakukan pengecekan langsung dengan 1 for loop, ini menghasilkan hasil yang salah
+
+Setelah dicek, ternyata kesalahan terjadi karena perhitungan jumlah sel tetangga yang hidup
+berjalan bersamaan dengan perubahan array.
+Ini menyebabkan perhitungan menjadi salah.
+
+Solusi: membuat array dari jumlah sel tetangga yang hidup.
+
+Setelah dilakukan seperti demikian, kode berjalan dengan benar.
+
+-- Matthew Ryo Kianijaya / 13218035
