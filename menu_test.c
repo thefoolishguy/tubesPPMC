@@ -10,28 +10,29 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-//#include "file.c bla bla"
+#include <math.h>
+#include "lib_salomo.h"
 
 int main(void)
 {
     int choice;                //1. Animate, 2. Tick, 3. Quit
     int quit=0;
     char filename[20];          //File name
-    FILE *fp;
 
-    printf("PROGRAM CONWAY'S GAME OF LIFE BY KELOMPOK B5\n\n");
+    printf("PROGRAM CONWAY'S GAME OF LIFE BY KELOMPOK C5\n\n");
 
     while(quit==0)
     {
         printf("Silakan masukkan file seed .txt yang diinginkan: "); scanf("%s", &filename);
-        //fp = fopen(filename, "r");
 
         //Prosedure assign dari file eksternal ke matrix
         printf("run prosedur assign file eksternal ke matrix\n\n");
+        fileToArray(filename);
+
 
 
         //Looping menu
-        printf("File seed telah berhasil di-load dan di-assign ke dalam array.\n");
+        printf("\n\nFile seed telah berhasil di-load dan di-assign ke dalam array.\n");
         printf("Pilih operasi yang akan dilakukan pada seed:\n");
         printf("1. Animate (Melakukan animasi pada seed sebanyak jumlah iterasi yang dimasukkan).\n");
         printf("2. Tick (Melakukan simulasi pada seed sebanyak satu iterasi).\n");
@@ -56,9 +57,5 @@ int main(void)
             printf("Masukkan pilihan: "); scanf("%d", &choice);
         };
         printf("Apakah mau keluar atau pilih filename lain? (1/0): "); scanf("%d", &quit);
-        /*if(quit=0)
-            fclose(fp);*/
-    };
-
-    return(0);
+    }
 }
