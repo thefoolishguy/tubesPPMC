@@ -1,6 +1,6 @@
 /*  EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
  *  MODUL 8 – TUGAS BESAR
- *  Kelompok            : 5C
+ *  Kelompok            : B5
  *  Hari dan Tanggal    : Rabu, 15 April 2020
  *  Asisten (NIM)       : Berry (13216027)
  *  Nama File           : menu_conway.c
@@ -23,7 +23,7 @@ int main(void)
     int quit=0;
     char filename[20];          //File name
 
-    printf("----------PROGRAM CONWAY'S GAME OF LIFE BY KELOMPOK C5----------\n\n");
+    printf("----------PROGRAM CONWAY'S GAME OF LIFE BY KELOMPOK B5----------\n\n");
     printf("Program ini merupakan sebuah simulator perkembangan suatu populasi\n");
     printf("berdasarkan aturan tertentu. Input file merupakan file eksternal .txt\n");
     printf("yang berisi array yang memodelkan populasi tersebut. Sel mati dimodelkan\n");
