@@ -3,7 +3,7 @@
  *  Kelompok            : B5
  *  Hari dan Tanggal    : Rabu, 15 April 2020
  *  Asisten (NIM)       : Berry (13216027)
- *  Nama File           : lib_conway.c
+ *  Nama File           : lib_conway_B5.c
  *  Deskripsi           : Mencetak generasi selanjutnya dalam Conway's Game of Life
  */
 

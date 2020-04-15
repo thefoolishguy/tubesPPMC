@@ -3,7 +3,7 @@
  *  Kelompok            : B5
  *  Hari dan Tanggal    : Rabu, 15 April 2020
  *  Asisten (NIM)       : Berry (13216027)
- *  Nama File           : menu_conway.c
+ *  Nama File           : menu_conway_B5.c
  *  Deskripsi           : Main menu program Conway's Game of Life
  */
 
@@ -11,7 +11,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
-#include "lib_conway.h"
+#include "lib_conway_B5.h"
 
 char buff[255], store[10], content;
 int i, j, row, column, n_animate, k, m;
