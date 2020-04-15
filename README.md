@@ -1,5 +1,5 @@
 # tubesPPMC
-Repo tugas besar untuk kelompok 5 dari rombongan C
+Repo tugas besar untuk kelompok 5 dari rombongan B
 
 # Anggota
 1. Yahwista Salomo            / 13218032
