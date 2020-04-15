@@ -1,5 +1,4 @@
 #pragma once
-#include "lib_conway.c"
 
 /*  Fungsi tick akan mencetak generasi selanjutnya dari Conway's Game of Life
     ke console.

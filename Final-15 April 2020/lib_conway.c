@@ -8,6 +8,7 @@
  */
 
 #include <stdio.h>
+#include <time.h>
 
 /*  Fungsi count_alive akan menghitung jumlah sel hidup di sekitar sel yang sedang diperiksa.
     Input   : pointer of 2d array, current row, current column, maximum row, maximum column

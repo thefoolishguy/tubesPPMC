@@ -1,5 +1,5 @@
 /*  EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
- *  MODUL 8 – TUGAS BESAR
+ *  MODUL 8 ï¿½ TUGAS BESAR
  *  Kelompok            : B5
  *  Hari dan Tanggal    : Rabu, 15 April 2020
  *  Asisten (NIM)       : Berry (13216027)
@@ -99,11 +99,17 @@ int main(void)
             }
             else
             {
-                printf("Input salah silakan input ulang.\n");
+                printf("Input salah! Silakan input ulang.\n");
             };
             printf("\n\nMasukkan pilihan: "); scanf("%d", &choice);
         };
         printf("Apakah mau keluar atau pilih filename lain? (1/0): "); scanf("%d", &quit);
+        
+        // Validasi
+        while((quit != 1) && (quit != 0)){
+            printf("Input salah! Silakan input ulang.\n");
+            printf("Apakah mau keluar atau pilih filename lain? (1/0): "); scanf("%d", &quit);
+        }
     };
     printf("Terimakasih telah memainkan program Conway's Game of Life!\n");
 
