@@ -1,19 +1,33 @@
 /*  EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
  *  MODUL 9 - TUGAS BESAR
- *  Kelompok            : 5C
- *  Hari dan Tanggal    : Minggu, 12 April 2020
+ *  Kelompok            : B5
+ *  Hari dan Tanggal    : Rabu, 15 April 2020
  *  Asisten (NIM)       : Berry (13216027)
- *  Nama File           : tick.c
+ *  Nama File           : lib_conway_B5.c
  *  Deskripsi           : Mencetak generasi selanjutnya dalam Conway's Game of Life
  */
 
 #include <stdio.h>
+#include <time.h>
 
 /*  Fungsi count_alive akan menghitung jumlah sel hidup di sekitar sel yang sedang diperiksa.
     Input   : pointer of 2d array, current row, current column, maximum row, maximum column
-    Output  : sum of alive cells (integer)
+    Output  : sum of alive cells (integer).
 */
 int count_alive (char **arr, int current_row, int current_column, int max_row, int max_column);
+
+/*
+    Prosedur delay merupakan prosedur untuk memberikan delay pada program, terdapat parameter
+    berupa delay yang diinginkan dalam milli second (ms).
+*/
+void delay(int number_of_milli_seconds)
+{
+    // Menyimpan waktu mulai
+    clock_t start_time = clock();
+
+    // Looping sampai kondisi tercapai
+    while (clock() < start_time + number_of_milli_seconds);
+};
 
 void tick (char **arr, int row, int column){
 
